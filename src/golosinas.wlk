@@ -1,4 +1,4 @@
-import sabores.*
+
 
 object bombon {
 	var peso= 15
@@ -10,7 +10,7 @@ object bombon {
 		
 		}
 	
-	method sabor()= frutilla
+	method sabor()= "frutilla"
 	
 	method precio()=5
 	
@@ -27,7 +27,7 @@ object alfajor {
 		
 		}
 	
-	method sabor()= chocolate
+	method sabor()= "chocolate"
 	
 	method precio()= 12
 	
@@ -44,7 +44,7 @@ object caramelo {
 		
 		}
 	
-	method sabor()= frutilla
+	method sabor()= "frutilla"
 	
 	method precio()= 1
 	
@@ -60,7 +60,7 @@ object chupetin {
 		peso = 2.max(peso - (10 * peso /100))
 		}
 	
-	method sabor()= naranja
+	method sabor()= "naranja"
 	
 	method precio()= 2
 	
@@ -79,7 +79,7 @@ object oblea {
 			peso = peso - (25*peso/100) }
 		}
 	
-	method sabor()= vainilla
+	method sabor()= "vainilla"
 	
 	method precio()= 5
 	
@@ -96,7 +96,7 @@ object chocolatin {
 		peso -= 2
 	}
 	
-	method sabor()= chocolate
+	method sabor()= "chocolate"
 	
 	method precio()= 0.50 * pesoInicial
 	
@@ -133,7 +133,7 @@ object pastillaTuttiFrutti {
 		//frut a choco a nar
 		}
 	
-	method sabor()= frutilla
+	method sabor()= "frutilla"
 	
 	method precio(){
 		var precio= 7
